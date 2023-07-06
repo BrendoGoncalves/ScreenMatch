@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{template.html}">
+<head>
+    <title>Movies List</title>
+</head>
+<body>
+<div layout:fragment="content">
+<h1>Movies List</h1>
+    <a href="/movies/form">New Movie</a>
+    <table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Duration</th>
+    <th>Genre</th>
+    <th>Release</th>
+      <th>Actions</th>
+  </tr>
+  </thead>
+    <tr th:each="movie : ${list}">
+        <td th:text="${movie.movie_name}"></td>
+        <td th:text="${movie.duration}"></td>
+        <td th:text="${movie.genre}"></td>
+        <td th:text="${movie.movie_release}"></td>
+        <td><a th:href="@{/movies/form?id={id}(id=${movie.id})}">Edit</a></td>
+        <td>
+            <form action="/movies" method="post">
+                <input type="hidden" name="_method" value="delete">
+                <input type="hidden" name="id" th:value="${movie.id}">
+                <input type="submit" value="Delete Movie">
+            </form>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>
