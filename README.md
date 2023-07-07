@@ -17,7 +17,7 @@ The project register movies in mysql database. I use the MVC (Model View Control
 
 ***
 
-#### Depencies
+#### Dependencies
 
 * DevTools
 * MySQL Conector
