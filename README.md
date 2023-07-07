@@ -1,6 +1,6 @@
 # ScreenMatch
 
-ScreenMatch is a Java Web Project throws Spring framawork.
+ScreenMatch is a Java Web Project throw Spring framawork.
 
 The project register movies in mysql database. I use the MVC (Model View Control) model. Some modules like Thymeleaf and Spring Web are important to say about. The pom.xml is configured.
 
