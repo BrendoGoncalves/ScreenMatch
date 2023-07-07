@@ -17,10 +17,14 @@ The project register movies in mysql database. I use the MVC (Model View Control
 
 ***
 
-### Depencies
+#### Depencies
 
 * DevTools
 * MySQL Conector
 * Spring Web
 * Thymeleaf
 * Data JPA
+
+![Register Movie](img/reg.png)
+
+![Movie List](img/list.png)
