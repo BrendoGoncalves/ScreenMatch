@@ -13,7 +13,7 @@ The project register movies in mysql database. I use the MVC (Model View Control
 * MySQL (8.0.33-0ubuntu0.22.04.2)
 * Apache Tomcat 10.1.10
 * Sping Servlet
-* HTML - css
+* HTML - CSS
 
 ***
 
