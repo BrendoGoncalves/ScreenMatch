@@ -27,4 +27,4 @@ The project register movies in mysql database. I use the MVC (Model View Control
 
 ![Register Movie](img/reg.png)
 
-![Movie List](img/form.png)
+![Movie List](img/lis.png)
