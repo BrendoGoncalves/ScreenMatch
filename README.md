@@ -25,6 +25,8 @@ The project register movies in mysql database. I use the MVC (Model View Control
 * Thymeleaf
 * Data JPA
 
-![Register Movie](img/reg.png)
+![Register Movie](img/movieForm.png)
 
-![Movie List](img/lis.png)
+![Movie List](img/movieList.png)
+
+![Movie Poster](img/moviePoster.png)
